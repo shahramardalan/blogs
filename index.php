@@ -70,7 +70,7 @@
         echo '<div class="fflex flex-col justify-center bg-gray-400 rounded-xl m-4 p-4">';
         echo "<img src={$blog["img"]} alt='' class=''>";
         echo "<h1 class='text-2xl font-bold'>{$blog["title"]}</h1>";
-        echo "<p>{$blog["desc"]}</p>";
+        echo "<p class='text-justify'>{$blog["desc"]}</p>";
         echo "<h3 class='font-bold'>{$blog["author"]}</h3>";
         echo '</div>';
     }
